@@ -22,8 +22,22 @@ class ContactsApp < Sinatra::Base
 
   get "/" do
     "Hello week 5"
-    "Contacts"
 
+    erb :homepage
   end
+
+  get "/Login" do
+    erb :Login
+  end
+
+  post "/Login" do
+
+    redirect "/"
+  end
+
+
+
+
+
 
 end

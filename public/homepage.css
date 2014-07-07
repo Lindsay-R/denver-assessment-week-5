@@ -1,0 +1,47 @@
+.block{
+    margin: auto;
+    width: 400px;
+
+
+}
+
+
+.flash{
+    color: limegreen;
+    margin: auto;
+    width: 400px;
+    height: 20px;
+}
+button{
+    margin: auto;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    font-size: 24pt;
+}
+.or {
+    width: 400px;
+    height: 15px;
+    margin: auto;
+
+    text-align: center;
+    padding-top: 20px;
+}
+form {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.input_box{
+    width: 400px;
+}
+.input {
+    padding-top: 20px;
+
+}
+.login{
+    margin: auto;
+    width: 400px;
+    height: 40px;
+    text-align: center;
+    font-size: 24pt;
+}
