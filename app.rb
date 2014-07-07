@@ -22,6 +22,8 @@ class ContactsApp < Sinatra::Base
 
   get "/" do
     "Hello week 5"
+    "Contacts"
+
   end
 
 end
