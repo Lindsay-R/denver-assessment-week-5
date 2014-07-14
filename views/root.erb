@@ -1,0 +1,7 @@
+<% if session[:user_id] %>
+
+  <form action="/logout" method="post">
+    <button type="submit">Logout</button>
+  </form>
+
+<% end %>

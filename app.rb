@@ -26,6 +26,14 @@ class ContactsApp < Sinatra::Base
     erb :homepage
   end
 
+  get "/" do
+    if session[:user_id]
+      puts "userpage, you are logged in, #{session[:id]}"
+    end
+    erb :root
+
+  end
+
   get "/Login" do
     erb :Login
   end
@@ -34,6 +42,8 @@ class ContactsApp < Sinatra::Base
 
     redirect "/"
   end
+
+
 
 
 
